@@ -13,13 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{7f369edf-b7da-425a-bf58-c7f5a5943134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Rendering">
+      <UniqueIdentifier>{9f7d3051-7a75-4ed9-89bb-7f89890eec9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Source.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="source\Engine.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rendering\Buffer.cpp">
+      <Filter>Archivos de origen\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rendering\Device.cpp">
+      <Filter>Archivos de origen\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rendering\DeviceContext.cpp">
+      <Filter>Archivos de origen\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Rendering\Texture2D.cpp">
+      <Filter>Archivos de origen\Rendering</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -31,6 +46,24 @@
     </ClInclude>
     <ClInclude Include="include\Engine\Prerequisites.h">
       <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine\MeshComponent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Device.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Swapchain.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Buffer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\DeviceContext.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rendering\Texture2D.h">
+      <Filter>Rendering</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
